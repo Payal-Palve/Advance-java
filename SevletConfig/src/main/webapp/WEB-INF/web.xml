@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+  
+  <context-param>
+  
+  <param-name>password</param-name>
+  <param-value>2345</param-value>
+  
+  </context-param>
+  <servlet>
+    <servlet-name>demo</servlet-name>
+    <servlet-class>com.code.Context</servlet-class>
+    
+    
+    <init-param>
+      <param-name>name</param-name>
+      <param-value>89</param-value>
+    </init-param>
+    <load-on-start-up>1</load-on-start-up>
+  </servlet>
+  
+  
+  <servlet-mapping>
+    <servlet-name>demo</servlet-name>
+    <url-pattern>/demo</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
