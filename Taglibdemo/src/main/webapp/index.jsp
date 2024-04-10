@@ -6,6 +6,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+<% response.getWriter().println("ISO 3166-1 alpha-3 country code: " + iso3Country); %>
 </head>
 <body>
 <t:Hello/>
